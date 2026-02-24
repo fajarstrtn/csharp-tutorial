@@ -19,5 +19,14 @@ public class Variables
         isWorking = false;
         Console.WriteLine(isWorking); // Output: false
 
+        string firstName = "Peter";
+        string lastName = "Parker";
+        string fullname = firstName + lastName;
+        Console.WriteLine(fullname); // Output: PeterParker
+
+        int num1 = 15, num2 = 16, num3 = 17;
+        Console.WriteLine(num1); // Output: 15
+        Console.WriteLine(num2); // Output: 16
+        Console.WriteLine(num3); // Output: 17
     }
 }
