@@ -1,3 +1,7 @@
+/*
+ * using System means that we can use classes from the System namespace.
+ * If you omit the using System line, you would have to
+ * write System.Console.WriteLine() to print text. */
 using System;
 
 /*
@@ -50,6 +54,9 @@ public class Introduction
 {
     public static void Main(string[] args)
     {
+        /*
+         * Console is a class of the System namespace,
+         * which has a WriteLine() method that is used to output/print text. */
         Console.WriteLine("Hello World"); // Output: Hello World
     }
 }

@@ -16,6 +16,7 @@ public class Identifiers
         // Identifiers are not allowed to use as keywords unless they include @ as a prefix.
         long @longNumber = 350000000000;
 
+        // You can add as many WriteLine() methods as you want.
         Console.WriteLine(number);       // Output: 10
         Console.WriteLine(number2);      // Output: 72
         Console.WriteLine(_thousands);   // Output: 15000
