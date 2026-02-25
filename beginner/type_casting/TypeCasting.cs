@@ -20,11 +20,13 @@ public class TypeCasting
         double num3 = Convert.ToDouble(10000);
         string str = Convert.ToString(10.5);
         bool @bool = Convert.ToBoolean("true");
+        decimal _decimal = Convert.ToDecimal("10000000000");
 
-        Console.WriteLine(num1);  // Output: 70
-        Console.WriteLine(num2);  // Output: 1000000000
-        Console.WriteLine(num3);  // Output: 10000
-        Console.WriteLine(str);   // Output: 10,5
-        Console.WriteLine(@bool); // Output: True
+        Console.WriteLine(num1);     // Output: 70
+        Console.WriteLine(num2);     // Output: 1000000000
+        Console.WriteLine(num3);     // Output: 10000
+        Console.WriteLine(str);      // Output: 10,5
+        Console.WriteLine(@bool);    // Output: True
+        Console.WriteLine(_decimal); // Output: 10000000000
     }
 }
